@@ -1,0 +1,442 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+}
+hr {
+  opacity: 1;
+  color: #9bd8c9;
+  background-color: #9bd8c9;
+  width: 100%;
+  height: 0px;
+}
+img {
+  width: 50%;
+}
+.logo {
+  width: 150px;
+}
+header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(images/desktop/image-header.jpg);
+  font-family: "Fraunces", serif;
+  width: 100%;
+  height: 800px;
+  background-color: cyan;
+}
+header img {
+  margin: 20px;
+}
+header button {
+  margin: 20px;
+  border: none;
+  background-color: transparent;
+  float: right;
+}
+header span {
+  color: white;
+  font-size: 80px;
+  display: block;
+  text-align: center;
+  width: 80%;
+  margin: 65px auto;
+  word-spacing: 20px;
+  text-transform: uppercase;
+}
+header .arrow {
+  width: 36px;
+  position: absolute;
+  top: 350px;
+  left: calc((95%-36) / 2);
+}
+.transform img {
+  width: 50%;
+}
+
+.transform {
+  min-height: 730px;
+  background-color: white;
+}
+.transform .text{
+    width: 50%;
+    float
+}
+.transform p {
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  line-height: 1.4;
+}
+.heading {
+  color: black;
+  font-family: "Fraunces", serif;
+  font-size: 50px;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+.transform a {
+  color: black;
+  font-family: "Fraunces", serif;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+.stand-out {
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+}
+.stand-out img {
+  width: 100%;
+}
+.stand-out a {
+  color: black;
+  font-family: "Fraunces", serif;
+  display: block;
+  margin: 20px auto 50px auto;
+  text-align: center;
+}
+.stand-out div {
+  display: block;
+  margin: auto;
+}
+.stand-out p {
+  color: rgba(0, 0, 0, 0.4);
+}
+.graphic-design {
+  background-image: url(images/mobile/image-graphic-design.jpg);
+  height: 700px;
+  background-size: cover;
+}
+.graphic-design span {
+  padding-top: 450px;
+  color: hsl(167, 40%, 24%);
+  text-align: center;
+}
+.graphic-design p {
+  color: hsl(167, 40%, 24%);
+  padding-top: 25px;
+  text-align: center;
+  padding-left: 30px;
+  width: 90%;
+}
+.photography {
+  margin-top: 0px;
+  background-image: url(images/mobile/image-photography.jpg);
+  background-color: aqua;
+  height: 700px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.photography span {
+  margin: 0px auto;
+  padding-top: 450px;
+  color: hsl(198, 62%, 26%);
+}
+.photography p {
+  padding-top: 50px;
+  color: hsl(198, 62%, 26%);
+}
+.Clinets img {
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 60px auto;
+}
+.Clinets span {
+  color: rgba(0, 0, 0, 0.4);
+  /* font-family:'Barlow', sans-serif; */
+  font-size: 35px;
+  font-stretch: extra-expanded;
+}
+.Clinets p {
+  color: rgba(0, 0, 0, 0.8);
+  padding-left: 40px;
+  width: 90%;
+}
+
+.work-field {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.pics img {
+  width: 50%;
+  margin: 0px;
+  display: inline;
+  float: left;
+  /* height:303.86px; */
+}
+footer {
+  background-color: #9bd8c9;
+  color: hsl(167, 40%, 24%);
+  height: 320px;
+}
+footer .links {
+  width: 80%;
+  text-align: center;
+  display: block;
+  margin: 50px auto;
+}
+footer .link {
+  color: hsl(167, 40%, 24%);
+  text-decoration: none;
+  /* margin-left: 15px; */
+  display: inline-block;
+}
+
+footer .Contact {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+.Contact i {
+  margin: 0px 20px;
+  color: hsl(167, 40%, 24%);
+}
+footer a:hover {
+  color: white;
+  transition: 0.3s;
+}
+footer a i:hover {
+  color: white;
+  transition: 0.3s;
+}
+footer img {
+  width: 50%;
+  display: block;
+  padding-top: 50px;
+  margin: auto;
+}
+/*************************************************************************************************************/
+/* 
+font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif; */
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+  }
+  hr {
+    opacity: 1;
+    color: #9bd8c9;
+    background-color: #9bd8c9;
+    width: 100%;
+    height: 0px;
+  }
+  img {
+    width: 100%;
+  }
+  .logo {
+    width: 150px;
+  }
+  header {
+    background-image: url(images/mobile/image-header.jpg);
+    height: 693px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Fraunces", serif;
+    width: 100%;
+  }
+  header img {
+    margin: 20px;
+  }
+  header button {
+    margin: 20px;
+    border: none;
+    background-color: transparent;
+    float: right;
+  }
+  header span {
+    color: white;
+    font-size: 80px;
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    width: 80%;
+    margin: 30px auto;
+  }
+  header .arrow {
+    width: 36px;
+    position: absolute;
+    top: 350px;
+    left: calc((95%-36) / 2);
+  }
+  .transform img {
+    width: 100%;
+  }
+
+  .transform {
+    min-height: 730px;
+    background-color: white;
+  }
+  .transform p {
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    line-height: 1.4;
+  }
+  .heading {
+    color: black;
+    font-family: "Fraunces", serif;
+    font-size: 50px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .transform a {
+    color: black;
+    font-family: "Fraunces", serif;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .stand-out {
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+  }
+  .stand-out img {
+    width: 100%;
+  }
+  .stand-out a {
+    color: black;
+    font-family: "Fraunces", serif;
+    display: block;
+    margin: 20px auto 50px auto;
+    text-align: center;
+  }
+  .stand-out div {
+    display: block;
+    margin: auto;
+  }
+  .stand-out p {
+    color: rgba(0, 0, 0, 0.4);
+  }
+  .graphic-design {
+    background-image: url(images/mobile/image-graphic-design.jpg);
+    height: 700px;
+    background-size: cover;
+  }
+  .graphic-design span {
+    padding-top: 450px;
+    color: hsl(167, 40%, 24%);
+    text-align: center;
+  }
+  .graphic-design p {
+    color: hsl(167, 40%, 24%);
+    padding-top: 25px;
+    text-align: center;
+    padding-left: 30px;
+    width: 90%;
+  }
+  .photography {
+    margin-top: 0px;
+    background-image: url(images/mobile/image-photography.jpg);
+    background-color: aqua;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .photography span {
+    margin: 0px auto;
+    padding-top: 450px;
+    color: hsl(198, 62%, 26%);
+  }
+  .photography p {
+    padding-top: 50px;
+    color: hsl(198, 62%, 26%);
+  }
+  .Clinets img {
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 60px auto;
+  }
+  .Clinets span {
+    color: rgba(0, 0, 0, 0.4);
+    /* font-family:'Barlow', sans-serif; */
+    font-size: 35px;
+    font-stretch: extra-expanded;
+  }
+  .Clinets p {
+    color: rgba(0, 0, 0, 0.8);
+    padding-left: 40px;
+    width: 90%;
+  }
+
+  .work-field {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  .pics img {
+    width: 50%;
+    margin: 0px;
+    display: inline;
+    float: left;
+    /* height:303.86px; */
+  }
+  footer {
+    background-color: #9bd8c9;
+    color: hsl(167, 40%, 24%);
+    height: 320px;
+  }
+  footer .links {
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin: 50px auto;
+  }
+  footer .link {
+    color: hsl(167, 40%, 24%);
+    text-decoration: none;
+    /* margin-left: 15px; */
+    display: inline-block;
+  }
+
+  footer .Contact {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+  }
+  .Contact i {
+    margin: 0px 20px;
+    color: hsl(167, 40%, 24%);
+  }
+  footer a:hover {
+    color: white;
+    transition: 0.3s;
+  }
+  footer a i:hover {
+    color: white;
+    transition: 0.3s;
+  }
+  footer img {
+    width: 50%;
+    display: block;
+    padding-top: 50px;
+    margin: auto;
+  }
+}
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  background-color: #9bd8c9;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
